@@ -1,0 +1,54 @@
+/*---------------------------------------*\
+  Layout/ header
+\*---------------------------------------*/
+
+$imgHeader: url("../images/header.png");
+
+.l-header {
+  display: block;
+  margin: 0;
+  padding:50px 0 0 0;
+  width: 100%;
+  background-image: $imgHeader;
+
+
+}
+
+.l-header.logo{
+  max-width: 100%;
+}
+
+.l-header .menu{
+  display: block;
+}
+
+.l-header ul{
+  list-style: none;
+}
+
+.l-header ul li{
+  float: left;
+  margin-right: 30px;
+}
+
+.l-header ul li a{
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.l-header ul li a:hover{
+  color: #07b569;
+}
+
+.l-header ul li:last-child{
+  margin-right: 0;
+}
+
+
+.l-header .show-text{
+  margin: 215px 0 280px 0;
+  color: #fff;
+  font-size: 54px;
+  text-align: center;
+}
